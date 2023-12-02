@@ -1,0 +1,145 @@
+html {
+    background-color: rgb(30, 30, 30);
+    min-height: 100vh;
+}
+
+body {
+    min-height: 500vh;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding-top: 0.1rem;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    align-items: center;
+}
+
+.logoLink {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+
+.logo {
+    border-radius: 20%;
+    width: 3rem;
+    height: 3rem;
+}
+
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.downloadNow {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-right: 0.5rem;
+    border: 2px solid rgb(96, 198, 137);
+    border-radius: 10px;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-size: large;
+    margin-top: 0.5rem;
+    background-color: rgb(30, 30, 30);
+}
+
+.downloadNow:hover {
+    background-color: rgba(96, 198, 137, 0.5);
+}
+
+.mainDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.mainText {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    width: 35rem;
+    font-size: 300%;
+    margin-right: 2rem;
+}
+
+.brandName {
+    color: rgb(39, 104, 128);
+}
+
+.appHomeScreen {
+    width: 28rem;
+}
+
+.phoneSlideAnimation {
+    height: 200vh;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+.iphoneSlide {
+    margin-top: 15rem;
+}
+
+.iphoneImg {
+    display: flex;
+    width: 20rem;
+    transform: rotate(90deg);
+    position: absolute;
+}
+
+.introText {
+    width: 25rem;
+    display: flex;
+    margin-top: 25rem;
+    margin-left: 50%;
+    z-index: -1;
+}
+
+.text2 {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 300%;
+    opacity: 1;
+}
+
+.cards {
+    display: flex;
+    opacity: 0;
+    transform: perspective(1200px);
+    align-content: center;
+    align-items: center;
+    height: 250px;
+    width: 20%;
+}
+
+.img1 {
+    display: flex;
+}
+
+.img11 {
+    display: block;
+}
